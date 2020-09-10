@@ -5,4 +5,4 @@
  - cd src
  - json-server --watch db.json --port 3004 
 
- ![Urün ekleme]("./src/assets/urun_ekleme.png")
+ ![Urün ekleme](src/assets/urun_ekleme.png)
