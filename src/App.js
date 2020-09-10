@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
 import './App.css';
 import { connect } from 'react-redux';
-
 import Newproduct from "./components/NewProduct"
 import Products from "./components/Products"
 
-import { addProduct, fetchProducts} from "./store/actions/ProductAction"
+import { addProduct, fetchProducts } from "./store/actions/ProductAction"
 
 class App extends Component {
   componentDidMount() {
